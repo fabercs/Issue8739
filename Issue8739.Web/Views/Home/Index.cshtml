@@ -1,0 +1,8 @@
+﻿@model HomeViewModel
+@inject IViewLocalizer Localizer
+<h1>
+    @Localizer["IndexHeader"]
+</h1>
+
+<label>@Localizer["Id"] : @Model.Id</label >
+<label>@Localizer["Name"] : @Model.Name</label>
